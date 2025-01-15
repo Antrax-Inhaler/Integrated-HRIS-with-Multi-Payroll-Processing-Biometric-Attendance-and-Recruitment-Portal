@@ -1,0 +1,2 @@
+# Integrated-HRIS-with-Multi-Payroll-Processing-Biometric-Attendance-and-Recruitment-Portal
+Developed a comprehensive HR management system featuring multi-payroll processing (regular, job order, contractual - monthly/semi-monthly), biometric attendance integration with fingerprint devices, a job application portal with PDS generation, and employee management functionality. Streamlined HR operations efficiently in one platform.
