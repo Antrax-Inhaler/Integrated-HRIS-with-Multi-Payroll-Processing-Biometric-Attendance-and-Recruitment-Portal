@@ -1,0 +1,113 @@
+body {
+  font-size: 14px;
+}
+
+.button{
+  position: relative;
+  overflow: hidden;
+  height: 35px;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #00BF63;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  font-weight: bolder;
+}
+
+.button:hover{
+  color: #000;
+  font-weight: bold;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: #C1FF72;
+  transition: all 0.475s;
+}
+
+img{
+  height: 45px;
+}
+
+.logo_name{
+  font-size: 22px;
+  padding-left: 5px;
+  font-weight: bolder;
+  color: #00BF63;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.row {
+  margin: 3px;
+}
+
+h2 {
+  font-size: 1.5em !important;
+}
+
+#calendar1 {
+  padding-bottom: 15px;
+  z-index: 950;
+}
+
+#calendar2 {
+  z-index: 900;
+}
+
+.navbar {
+  height: 50px;
+  border-radius: 0;
+  background-color: #1d1b31;
+}
+
+.fc-body td {
+  cursor: pointer;
+}
+
+
+.left {
+  float: left;
+}
+
+.fc-event .fc-bg {
+  background-color: #337ab7;
+}
+
+.navbar-btn {
+  margin-right: 15px;
+}
+
+.fc-today .fc-day-number {
+  background: #d9534f;
+  color: white;
+  font-weight: bold;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 2px;
+}
+
+.fc-today {
+  background-color: #F2F2F2;
+}
